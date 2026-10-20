@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mohamad Hosein Bemani</title>
+<meta name="description" content="Computer Engineering student at Shahid Beheshti University. Systems programming, compilers, concurrency and media automation.">
+<style>
+:root{--bg:#fbfbfa;--fg:#1c1c1a;--muted:#5d5d58;--line:#dcdcd6;--card:#ffffff;--accent:#2a5bd7}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--fg:#ecece8;--muted:#a3a39b;--line:#2c2c29;--card:#1a1a18;--accent:#7aa2ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:48px 16px 72px}
+h1{font-size:2rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:40px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line);letter-spacing:.02em}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.sub{color:var(--muted);margin:0 0 16px}
+.links a{margin-right:16px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card h3{margin:0 0 6px;font-size:1.02rem}
+.card p{margin:0 0 10px;color:var(--muted);font-size:.95rem}
+.tag{display:inline-block;font-size:.75rem;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:1px 9px;margin:0 6px 4px 0}
+.demo{width:100%;border-radius:10px;border:1px solid var(--line);margin:8px 0 4px}
+.job h3{margin:0}.job .meta{color:var(--muted);font-size:.92rem;margin:0 0 6px}
+ul{padding-left:20px;margin:6px 0}li{margin:4px 0}
+.skills dt{font-weight:600;margin-top:10px}.skills dd{margin:2px 0 0;color:var(--muted)}
+footer{margin-top:48px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Mohamad Hosein Bemani</h1>
+<p class="sub">Computer Engineering student at Shahid Beheshti University, Tehran</p>
+<p class="links"><a href="https://github.com/mhbemani">GitHub</a><a href="https://www.linkedin.com/in/mohamad-hosein-bemani/">LinkedIn</a><a href="cv.pdf">Download CV (PDF)</a></p>
+
+<p>I like the parts of computing that sit close to the machine: how a compiler turns text into code, how threads share state safely, how protocols move bytes between programs. I also enjoy building complete tools, and I recently worked on enterprise systems in ASP.NET Core and Angular during an internship. I'm looking for internship and junior software engineering roles (backend, full-stack and systems programming).</p>
+
+<h2>Projects</h2>
+<div class="grid">
+  <div class="card"><h3><a href="https://github.com/mhbemani/AI-Automation-Studio">AI-Automation-Studio</a></h3>
+    <p>A local pipeline that turns a storyboard into narrated 1080p and vertical videos: Kokoro voice, Whisper timing, Remotion animation, FFmpeg, optional n8n workflow. v1.0.0 with a quickstart tested from a fresh clone.</p>
+    <span class="tag">Python</span><span class="tag">TypeScript</span><span class="tag">Remotion</span><span class="tag">n8n</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/multithreaded-message-broker">multithreaded-message-broker</a></h3>
+    <p>Priority pub/sub broker with bounded queues, TTL and deadline-aware scheduling. CI runs it under ThreadSanitizer.</p>
+    <span class="tag">C</span><span class="tag">pthreads</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/toy-language-compiler">toy-language-compiler</a></h3>
+    <p>Lexer, recursive-descent parser, optimizer and LLVM IR code generation for a small C-like language. CI builds it and runs a sample program.</p>
+    <span class="tag">C++17</span><span class="tag">LLVM</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/custom-cipher-pki-demo">custom-cipher-pki-demo</a></h3>
+    <p>A 128-bit block cipher with CBC/OFB/CTR modes, RSA/DSA and a toy certificate authority (educational).</p>
+    <span class="tag">Java</span><span class="tag">Cryptography</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/tanks-2d-unity">tanks-2d-unity</a></h3>
+    <p>Turn-based 2D artillery game: turn state machine, slope-following tank movement, trajectory preview, weapon inventory.</p>
+    <span class="tag">Unity</span><span class="tag">C#</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/hotel-reservation-sockets">hotel-reservation-sockets</a></h3>
+    <p>Multi-threaded TCP server and CLI client with a JSON protocol and end-to-end tests.</p>
+    <span class="tag">Python</span><span class="tag">Sockets</span></div>
+  <div class="card"><h3><a href="https://github.com/mhbemani/pong-8086-asm">pong-8086-asm</a></h3>
+    <p>Pong with breakable blocks in 8086 assembly, writing straight to VGA memory.</p>
+    <span class="tag">x86 assembly</span><span class="tag">NASM</span></div>
+</div>
+
+<h2>Experience</h2>
+<div class="job">
+  <h3>Software Developer Intern</h3>
+  <p class="meta">National Iranian Copper Industries Co. (Sarcheshmeh Copper Complex), IT unit · Aug 2026 – Sep 2026</p>
+  <ul>
+    <li>Studied an enterprise overtime-distribution system built with Clean Architecture, DDD and CQRS.</li>
+    <li>Completed a delegation feature after checking every backend and frontend consumer of the data; delivered as Git patch files.</li>
+    <li>Upgraded the main data tables with server-side sorting, filtering and search (PrimeNG) and wrote guidance for other modules.</li>
+    <li>On an ID-card issuing system (ASP.NET Core, .NET 8): analysed a script engine that recompiled on every request and built a compile cache.</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="job">
+  <h3>B.Sc. Computer Engineering, Shahid Beheshti University</h3>
+  <p class="meta">Sep 2022 – expected 2027</p>
+  <p>Coursework: Operating Systems, Compilers, Computer Networks, Cryptography, Artificial Intelligence, Databases, Digital System Design, Embedded Systems, Machine Learning, Software Engineering.</p>
+</div>
+
+<h2>Skills</h2>
+<dl class="skills">
+  <dt>Languages</dt><dd>C, C++, C#, Java, Python, TypeScript, x86 assembly</dd>
+  <dt>Backend and data</dt><dd>ASP.NET Core, Entity Framework Core, SQL Server, Angular (internship)</dd>
+  <dt>Systems</dt><dd>Concurrency, operating systems, networking, cryptography, compilers, LLVM</dd>
+  <dt>Tools</dt><dd>Git, Docker, GitHub Actions, FFmpeg, Unity, Blender, n8n</dd>
+</dl>
+
+<footer>Built as a single static page. Source: <a href="https://github.com/mhbemani/mhbemani.github.io">mhbemani.github.io</a></footer>
+</main>
+</body>
+</html>
